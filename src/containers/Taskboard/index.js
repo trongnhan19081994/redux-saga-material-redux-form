@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import propTypes from 'prop-types';
+import propTypes from "prop-types";
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
@@ -75,7 +75,6 @@ class Taskboard extends Component {
 
   render() {
     const { classes } = this.props;
-    var test = null;
     return (
       <div className={classes.taskBoard}>
         <Button

@@ -75,6 +75,7 @@ class Taskboard extends Component {
 
   render() {
     const { classes } = this.props;
+    var test = null;
     return (
       <div className={classes.taskBoard}>
         <Button

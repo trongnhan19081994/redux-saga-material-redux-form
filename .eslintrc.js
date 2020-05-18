@@ -36,7 +36,8 @@ module.exports = {
         'react/prefer-stateless-function': 0,
         'spaced-comment': 0,
         'import/prefer-default-export': 0,
-        'no-var': 0
+        'no-var': 0,
+        'react/jsx-uses-vars': 2
     },
     plugins: ['prettier'],
     env: {
